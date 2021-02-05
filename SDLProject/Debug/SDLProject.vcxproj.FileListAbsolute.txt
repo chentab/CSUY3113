@@ -1,0 +1,2 @@
+D:\school\CS3113-master\Templates\SDLProject\Debug\SDLProject.exe
+D:\school\CS3113-master\Templates\SDLProject\Debug\SDLProject.pdb
