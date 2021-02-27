@@ -1,2 +1,2 @@
 ﻿  main.cpp
-  SDLProject.vcxproj -> D:\school\CSUY3113\SDLProject\Debug\SDLProject.exe
+D:\school\CSUY3113\SDLProject\main.cpp(17,10): fatal error C1083: Cannot open include file: 'Player.h': No such file or directory
