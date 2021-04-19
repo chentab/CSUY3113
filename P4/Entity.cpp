@@ -111,10 +111,10 @@ void Entity::AIWaitAndGo(Entity *player) {
 
 void Entity::AIWalker(){
  
-    if (position.x > -1.8f) {
+    if (position.x > 12) {
         movement = glm::vec3(-1, 0, 0);
     }
-    else if (position.x < -4.6f) {
+    else if (position.x < 9) {
         movement = glm::vec3(1, 0, 0);
     }
     
