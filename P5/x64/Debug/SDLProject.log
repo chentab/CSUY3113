@@ -1,0 +1,53 @@
+﻿  main.cpp
+Entity.obj : error LNK2019: unresolved external symbol __imp___glewDisableVertexAttribArray referenced in function "public: void __cdecl Entity::DrawSpriteFromTextureAtlas(class ShaderProgram *,unsigned int,int)" (?DrawSpriteFromTextureAtlas@Entity@@QEAAXPEAVShaderProgram@@IH@Z)
+Map.obj : error LNK2001: unresolved external symbol __imp___glewDisableVertexAttribArray
+Util.obj : error LNK2001: unresolved external symbol __imp___glewDisableVertexAttribArray
+Entity.obj : error LNK2019: unresolved external symbol __imp___glewEnableVertexAttribArray referenced in function "public: void __cdecl Entity::DrawSpriteFromTextureAtlas(class ShaderProgram *,unsigned int,int)" (?DrawSpriteFromTextureAtlas@Entity@@QEAAXPEAVShaderProgram@@IH@Z)
+Map.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+Util.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+Entity.obj : error LNK2019: unresolved external symbol __imp___glewVertexAttribPointer referenced in function "public: void __cdecl Entity::DrawSpriteFromTextureAtlas(class ShaderProgram *,unsigned int,int)" (?DrawSpriteFromTextureAtlas@Entity@@QEAAXPEAVShaderProgram@@IH@Z)
+Map.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+Util.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+main.obj : error LNK2019: unresolved external symbol __imp_glewInit referenced in function "void __cdecl Initialize(void)" (?Initialize@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_RWFromFile referenced in function "void __cdecl Initialize(void)" (?Initialize@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function "void __cdecl Initialize(void)" (?Initialize@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_GL_CreateContext referenced in function "void __cdecl Initialize(void)" (?Initialize@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_GL_MakeCurrent referenced in function "void __cdecl Initialize(void)" (?Initialize@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_GL_SwapWindow referenced in function "void __cdecl Render(void)" (?Render@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_GetKeyboardState referenced in function "void __cdecl ProcessInput(void)" (?ProcessInput@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function "void __cdecl ProcessInput(void)" (?ProcessInput@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_GetTicks referenced in function "void __cdecl Update(void)" (?Update@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function "void __cdecl Initialize(void)" (?Initialize@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function "void __cdecl Shutdown(void)" (?Shutdown@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol Mix_OpenAudio referenced in function "void __cdecl Initialize(void)" (?Initialize@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol Mix_LoadWAV_RW referenced in function "void __cdecl Initialize(void)" (?Initialize@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol Mix_LoadMUS referenced in function "void __cdecl Initialize(void)" (?Initialize@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol Mix_PlayChannelTimed referenced in function "void __cdecl ProcessInput(void)" (?ProcessInput@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol Mix_PlayMusic referenced in function "void __cdecl Initialize(void)" (?Initialize@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol Mix_VolumeMusic referenced in function "void __cdecl Initialize(void)" (?Initialize@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp___glewUseProgram referenced in function "void __cdecl Initialize(void)" (?Initialize@@YAXXZ)
+ShaderProgram.obj : error LNK2001: unresolved external symbol __imp___glewUseProgram
+Map.obj : error LNK2001: unresolved external symbol __imp___glewUseProgram
+Util.obj : error LNK2001: unresolved external symbol __imp___glewUseProgram
+ShaderProgram.obj : error LNK2019: unresolved external symbol __imp___glewAttachShader referenced in function "public: void __cdecl ShaderProgram::Load(char const *,char const *)" (?Load@ShaderProgram@@QEAAXPEBD0@Z)
+ShaderProgram.obj : error LNK2019: unresolved external symbol __imp___glewCompileShader referenced in function "public: unsigned int __cdecl ShaderProgram::LoadShaderFromString(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int)" (?LoadShaderFromString@ShaderProgram@@QEAAIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z)
+ShaderProgram.obj : error LNK2019: unresolved external symbol __imp___glewCreateProgram referenced in function "public: void __cdecl ShaderProgram::Load(char const *,char const *)" (?Load@ShaderProgram@@QEAAXPEBD0@Z)
+ShaderProgram.obj : error LNK2019: unresolved external symbol __imp___glewCreateShader referenced in function "public: unsigned int __cdecl ShaderProgram::LoadShaderFromString(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int)" (?LoadShaderFromString@ShaderProgram@@QEAAIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z)
+ShaderProgram.obj : error LNK2019: unresolved external symbol __imp___glewDeleteProgram referenced in function "public: void __cdecl ShaderProgram::Cleanup(void)" (?Cleanup@ShaderProgram@@QEAAXXZ)
+ShaderProgram.obj : error LNK2019: unresolved external symbol __imp___glewDeleteShader referenced in function "public: void __cdecl ShaderProgram::Cleanup(void)" (?Cleanup@ShaderProgram@@QEAAXXZ)
+ShaderProgram.obj : error LNK2019: unresolved external symbol __imp___glewGetAttribLocation referenced in function "public: void __cdecl ShaderProgram::Load(char const *,char const *)" (?Load@ShaderProgram@@QEAAXPEBD0@Z)
+ShaderProgram.obj : error LNK2019: unresolved external symbol __imp___glewGetProgramiv referenced in function "public: void __cdecl ShaderProgram::Load(char const *,char const *)" (?Load@ShaderProgram@@QEAAXPEBD0@Z)
+ShaderProgram.obj : error LNK2019: unresolved external symbol __imp___glewGetShaderInfoLog referenced in function "public: unsigned int __cdecl ShaderProgram::LoadShaderFromString(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int)" (?LoadShaderFromString@ShaderProgram@@QEAAIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z)
+ShaderProgram.obj : error LNK2019: unresolved external symbol __imp___glewGetShaderiv referenced in function "public: unsigned int __cdecl ShaderProgram::LoadShaderFromString(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int)" (?LoadShaderFromString@ShaderProgram@@QEAAIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z)
+ShaderProgram.obj : error LNK2019: unresolved external symbol __imp___glewGetUniformLocation referenced in function "public: void __cdecl ShaderProgram::Load(char const *,char const *)" (?Load@ShaderProgram@@QEAAXPEBD0@Z)
+ShaderProgram.obj : error LNK2019: unresolved external symbol __imp___glewLinkProgram referenced in function "public: void __cdecl ShaderProgram::Load(char const *,char const *)" (?Load@ShaderProgram@@QEAAXPEBD0@Z)
+ShaderProgram.obj : error LNK2019: unresolved external symbol __imp___glewShaderSource referenced in function "public: unsigned int __cdecl ShaderProgram::LoadShaderFromString(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int)" (?LoadShaderFromString@ShaderProgram@@QEAAIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z)
+ShaderProgram.obj : error LNK2019: unresolved external symbol __imp___glewUniform4f referenced in function "public: void __cdecl ShaderProgram::SetColor(float,float,float,float)" (?SetColor@ShaderProgram@@QEAAXMMMM@Z)
+ShaderProgram.obj : error LNK2019: unresolved external symbol __imp___glewUniformMatrix4fv referenced in function "public: void __cdecl ShaderProgram::SetModelMatrix(struct glm::mat<4,4,float,0> const &)" (?SetModelMatrix@ShaderProgram@@QEAAXAEBU?$mat@$03$03M$0A@@glm@@@Z)
+MSVCRTD.lib(exe_winmain.obj) : error LNK2019: unresolved external symbol WinMain referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\SDL\glew\lib\Release\Win32\glew32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\SDL\SDL2\lib\x86\SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\SDL\SDL2\lib\x86\SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\SDL\SDL2_image\lib\x86\SDL2_image.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SDL2_mixer.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\school\CSUY3113\P5\x64\Debug\SDLProject.exe : fatal error LNK1120: 37 unresolved externals

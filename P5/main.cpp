@@ -14,7 +14,7 @@ using namespace std;
 #include "glm/mat4x4.hpp"
 #include "glm/gtc/matrix_transform.hpp"
 #include "ShaderProgram.h"
-#include <SDL_mixer.h>
+#include "SDL_mixer.h"
 
 
 #include "Entity.h"

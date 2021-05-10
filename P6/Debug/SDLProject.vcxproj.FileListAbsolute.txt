@@ -1,0 +1,10 @@
+D:\school\CS3113-master\Templates\SDLProject\Debug\SDLProject.exe
+D:\school\CS3113-master\Templates\SDLProject\Debug\SDLProject.pdb
+D:\school\CSUY3113\SDLProject\Debug\SDLProject.exe
+D:\school\CSUY3113\SDLProject\Debug\SDLProject.pdb
+D:\school\CS3113-master\week 6\Debug\SDLProject.exe
+D:\school\CS3113-master\week 6\Debug\SDLProject.pdb
+D:\school\CS3113-master\week 6 - Copy\Debug\SDLProject.exe
+D:\school\CS3113-master\week 6 - Copy\Debug\SDLProject.pdb
+D:\school\CSUY3113\P6\Debug\SDLProject.exe
+D:\school\CSUY3113\P6\Debug\SDLProject.pdb
